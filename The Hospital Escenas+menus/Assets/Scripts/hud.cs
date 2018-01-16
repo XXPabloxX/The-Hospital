@@ -37,4 +37,18 @@ public class hud : MonoBehaviour {
         }
     }
 
+    public GameObject exit;
+
+    public void exitGame()
+    {
+        Application.Quit();
+    }
+
+    public GameObject back;
+
+    public void backGame()
+    {
+        mostrar = false;
+        fondoOpciones.SetActive(false);
+    }
 }

@@ -6,23 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Menu Principal.unity
-    guid: f0131c2293a28e942a15b1365a1bc466
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Persistent.unity
     guid: 32854b25abccf7d4cacb40b4f6c53ac6
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Inicio juego.unity
-    guid: 78eab7c9715720242a0414cce17b7ba1
-  - enabled: 0
-    path: Assets/Scenes/Puerta principal.unity
-    guid: df4986108078b9e49a6158f1fa20d2d0
-  - enabled: 0
-    path: Assets/Scenes/Puerta Personal.unity
-    guid: ec9ac0df522da3f46b160161cd940c4a
-  - enabled: 0
-    path: Assets/Scenes/Almacen.unity
+    path: Assets/Scenes/almacen.unity
     guid: 169b147b36abef6448797e73ab9096c1
   - enabled: 0
-    path: Assets/Scenes/Hall Hospital.unity
-    guid: 6d8bc1a7f69e5f147b7595f636c5f5f6
+    path: 
+    guid: 00000000000000000000000000000000

@@ -27,13 +27,17 @@ public class hud : MonoBehaviour {
     {
         if (mostrar)
         {
+            
             mostrar = false;
             fondoOpciones.SetActive(false);
+            Time.timeScale = 1;
         }
         else
         {
+            
             mostrar = true;
             fondoOpciones.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 
@@ -46,9 +50,5 @@ public class hud : MonoBehaviour {
 
     public GameObject back;
 
-    public void backGame()
-    {
-        mostrar = false;
-        fondoOpciones.SetActive(false);
-    }
+    
 }

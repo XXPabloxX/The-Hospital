@@ -1,12 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class spawnPoint : MonoBehaviour {
 
     [SerializeField]
     GameObject _spawnPoint;
-    
+
+    [SerializeField]
+    int sceneToUnload;
+    [SerializeField]
+    int sceneToload;
+
 
     public void CrossDoor(UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter character)
         {
@@ -15,7 +21,11 @@ public class spawnPoint : MonoBehaviour {
 
             character.transform.position = posicionDestino;
             character.transform.eulerAngles = rotacionDestino;
-        }
+
+        SceneManager.UnloadSceneAsync(sceneToUnload);
+        SceneManager.LoadScene(sceneToload, LoadSceneMode.Additive);
+
+    }
 
 
 }

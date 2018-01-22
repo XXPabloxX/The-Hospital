@@ -4,7 +4,7 @@
 public class Item : ScriptableObject {
 
     public Sprite sprite;
-    public GameObject itemOnject;
-    public SOmeOther thing;
+    public GameObject itemObject;
+   // public SomeOther thing;
 
 }

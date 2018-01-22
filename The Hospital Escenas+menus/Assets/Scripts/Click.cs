@@ -18,12 +18,13 @@ public class Click : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-
+        Debug.Log("Calculo logica");
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit rayHit;
+            Debug.Log("Rayo");
 
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out rayHit, Mathf.Infinity, clickablesLayer))
             {
@@ -34,6 +35,10 @@ public class Click : MonoBehaviour {
 
             }
         }
+    }
+    void Update()
+    {
+        Debug.Log("Pinto");
     }
 }
 

@@ -628,6 +628,16 @@ Prefab:
       propertyPath: clickablesLayer.m_Bits
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 20519052875114418, guid: 700987a424421f24a84f056c93aa5358,
+        type: 2}
+      propertyPath: field of view
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 20519052875114418, guid: 700987a424421f24a84f056c93aa5358,
+        type: 2}
+      propertyPath: far clip plane
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 700987a424421f24a84f056c93aa5358, type: 2}
   m_IsPrefabParent: 0

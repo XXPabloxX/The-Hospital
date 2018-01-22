@@ -1107,25 +1107,48 @@ Prefab:
     - target: {fileID: 20557393695864780, guid: 90e59d2509a8004428d0467fc41efc1b,
         type: 2}
       propertyPath: m_BackGroundColor.r
-      value: 1
+      value: 0.19215687
       objectReference: {fileID: 0}
     - target: {fileID: 20557393695864780, guid: 90e59d2509a8004428d0467fc41efc1b,
         type: 2}
       propertyPath: m_BackGroundColor.g
-      value: 1
+      value: 0.3019608
       objectReference: {fileID: 0}
     - target: {fileID: 20557393695864780, guid: 90e59d2509a8004428d0467fc41efc1b,
         type: 2}
       propertyPath: m_BackGroundColor.b
-      value: 1
+      value: 0.4745098
       objectReference: {fileID: 0}
     - target: {fileID: 1317094654901986, guid: 90e59d2509a8004428d0467fc41efc1b, type: 2}
       propertyPath: m_TagString
       value: MainCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 1317094654901986, guid: 90e59d2509a8004428d0467fc41efc1b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 90e59d2509a8004428d0467fc41efc1b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &570704237 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1317094654901986, guid: 90e59d2509a8004428d0467fc41efc1b,
+    type: 2}
+  m_PrefabInternal: {fileID: 570704236}
+--- !u!114 &570704238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 570704237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a06b5912c4009a4ba23aeb82ce3fe59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickablesLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &585137521
 GameObject:
   m_ObjectHideFlags: 0

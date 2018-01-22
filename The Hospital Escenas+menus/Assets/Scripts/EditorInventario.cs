@@ -4,14 +4,14 @@ using System.Collections;
 
 
 
-[CustomEditor (typeof(Inventario))]
+[CustomEditor (typeof(Inventory))]
 public class EditorInventario : Editor
 {
     private SerializedProperty itemImagesProperty;
     private SerializedProperty itemsProperty;
 
 
-    private bool[] showItemSlots = new bool[Inventario.numItemSlots];
+    private bool[] showItemSlots = new bool[Inventory.numItemSlots];
 
     private const string inventoryPropItemImage = "ItemImages";
     private const string inventoryPropItemsName = "items";
@@ -26,7 +26,7 @@ public class EditorInventario : Editor
     {
         serializedObject.Update();
         
-        for(int i=0; i< Inventario.numItemSlots; i++)
+        for(int i=0; i< Inventory.numItemSlots; i++)
         {
             ItemSlotGUI(i);
         }

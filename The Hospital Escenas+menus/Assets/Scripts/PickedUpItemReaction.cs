@@ -1,17 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class PickedUpItemReaction : MonoBehaviour {
+﻿public class PickedUpItemReaction : DelayedReaction
+{
 
     public Item item;
 
-    private Inventario inventory;
+    private Inventory inventory;
 
     protected override void SpecificInit()
     {
 
-        inventory = FindObjectOfType<Inventario>();
+        inventory = FindObjectOfType<Inventory>();
 
     }
 
